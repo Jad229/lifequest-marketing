@@ -7,28 +7,44 @@ body {
   padding: 0;
   background-color: #121212;
   color: white;
+  font-family: "Titan One", cursive;
 }
 
 /***********************/
 /*  Navigation Styles  */
 /***********************/
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
-.nav{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
-.nav--items{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.nav--items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav--brand {
+  font-size: 2rem;
+}
+.nav--brand-quest {
+  color: #ffd700;
+}
+
+.nav--cta {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffd700;
+  font-family: "Titan One", cursive;
 }
 
 /***********************/
@@ -41,12 +57,7 @@ a {
 }
 
 .landing--heading {
-  background-color: gold
+  background-color: gold;
   color: magenta;
-  font-family: "Moirai One", cursive;
   font-size: 4rem;
-}
-
-.landing--slogan {
-  font-family: "Bungee", cursive;
 }
