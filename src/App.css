@@ -1,0 +1,52 @@
+/* font-family: 'Bungee', cursive;
+font-family: 'Moirai One', cursive;
+font-family: 'Titan One', cursive; */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+}
+
+/***********************/
+/*  Navigation Styles  */
+/***********************/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav--items{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/***********************/
+/* Landing Page Styles */
+/***********************/
+
+.landing--slogan,
+.landing--heading {
+  text-align: center;
+}
+
+.landing--heading {
+  background-color: gold
+  color: magenta;
+  font-family: "Moirai One", cursive;
+  font-size: 4rem;
+}
+
+.landing--slogan {
+  font-family: "Bungee", cursive;
+}
