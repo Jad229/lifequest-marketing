@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="nav">
       <div className="nav--brand">
         <Link to="/">
-          Life<span className="nav--brand-quest">Quest</span>
+          Life<span className="span-quest">Quest</span>
         </Link>
       </div>
       <div className="nav--items">

@@ -1,6 +1,10 @@
 /* font-family: 'Bungee', cursive;
 font-family: 'Moirai One', cursive;
 font-family: 'Titan One', cursive; */
+/***********************/
+/*    General Styles   */
+/***********************/
+
 html,
 body {
   margin: 0;
@@ -8,6 +12,10 @@ body {
   background-color: #121212;
   color: white;
   font-family: "Titan One", cursive;
+}
+
+.span-quest {
+  color: #ffd700;
 }
 
 /***********************/
@@ -35,9 +43,6 @@ a {
 .nav--brand {
   font-size: 2rem;
 }
-.nav--brand-quest {
-  color: #ffd700;
-}
 
 .nav--cta {
   padding: 10px;
@@ -51,13 +56,21 @@ a {
 /* Landing Page Styles */
 /***********************/
 
-.landing--slogan,
-.landing--heading {
-  text-align: center;
+.hero--landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-inline: auto;
+  gap: 20px;
 }
 
-.landing--heading {
-  background-color: gold;
-  color: magenta;
+@media screen and (max-width: 600px) {
+  .hero--landing {
+    width: 100%;
+  }
+}
+.hero--heading {
+  text-align: center;
   font-size: 4rem;
 }

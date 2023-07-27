@@ -1,13 +1,15 @@
+import HabitTrackerImage from "../assets/habit_tracker_phone.svg";
 import Navbar from "../components/Navbar";
-
 export default function LandingPage() {
   return (
-    <section className="landing--section">
+    <section className="hero--section">
       <Navbar />
-      <h1 className="landing--heading">LIFEQUEST</h1>
-      <h2 className="landing--slogan">
-        BECOME YOUR BEST SELF ONE QUEST AT A TIME
-      </h2>
+      <div className="hero--landing">
+        <h1 className="hero--heading">
+          <span className="span-quest">QUEST</span> FOR THE BETTER YOU
+        </h1>
+        <img src={HabitTrackerImage} alt="habit tracker phone" />
+      </div>
     </section>
   );
 }
